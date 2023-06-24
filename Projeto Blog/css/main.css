@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.centraliza-container{
+    margin: auto;
+
+}
+div{
+    width: 85%;
+    background-color: #fff;
+    padding: 3em;
+    box-shadow: 0 0 2.2em rgba (0, 0, 0, 2);
+}
+header{
+    text-align: center;
+}
+header ul{
+    margin-top: 1.5em; 
+}
+header li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin-right: 2em;
+}
+header li:last-child{margin-right: 0;}
+header a{
+    text-decoration: none; color: #d85b53; padding: .8em; 
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.imagemRF {
+    width: 200px;
+    height: 200px;
+}
+
